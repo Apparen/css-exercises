@@ -42,7 +42,18 @@ a {
   text-decoration: none;
   color: rebeccapurple;
 }
-
+.header{
+  display: flex;
+  justify-content: space-between;
+}
 ul {
+  display: flex;
+  gap: 16px;
   list-style-type: none;
+}
+.left, .right{
+  display:flex;
+  align-items:center;
+  gap: 16px;
+
 }
